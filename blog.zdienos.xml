@@ -714,7 +714,7 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
   <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
     <b:widget id='Header1' locked='false' title='zdienos blog - catatan pribadi dan sedikit tutorial (Header)' type='Header' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-KJRd42GHx3k/W2VIzfG6F6I/AAAAAAAAEF8/IL5l3DWwv24Pmxf_CCNY2OIhMlk_tOxNACK4BGAYYCw/s1600/zdienosblog-header-logo.png</b:widget-setting>
+        <b:widget-setting name='displayUrl'>https://3.bp.blogspot.com/-KJRd42GHx3k/W2VIzfG6F6I/AAAAAAAAEF8/IL5l3DWwv24Pmxf_CCNY2OIhMlk_tOxNACK4BGAYYCw/s200/zdienosblog-header-logo.png</b:widget-setting>
         <b:widget-setting name='displayHeight'>40</b:widget-setting>
         <b:widget-setting name='sectionWidth'>600</b:widget-setting>
         <b:widget-setting name='useImage'>true</b:widget-setting>
@@ -801,12 +801,11 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
 <div class='clear'/>
 </div>
 <div id='header-right'>
-<nav class='most-menu' id='most-menu' itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>
- <ul class='no-js' id='mobile-menu-show'>
-
-<li><a href='/p/about-me.html' itemprop='url' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-user'/><span itemprop='name'> AboutME</span></a></li>
-   <li><a href='/p/html-parsing-tool.html' itemprop='url' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-bookmark'/><span itemprop='name'> HTML ParsingTool</span></a></li>
-   <li><a href='/p/site.html' itemprop='url' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-feed'/><span itemprop='name'> SiteMAP</span></a></li>
+<nav class='most-menu' id='most-menu'>
+ <ul class='no-js' id='mobile-menu-show' itemscope='itemscope' itemtype='http://www.schema.org/SiteNavigationElement'>
+   <li itemprop='name'><a itemprop='url' href='/p/about-me.html' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-user'/> AboutME</a></li>
+   <li itemprop='name'><a itemprop='url' href='/p/html-parsing-tool.html'  rel='nofollow' title=''><i aria-hidden='true' class='fa fa-bookmark'/> HTML ParsingTool</a></li>
+   <li itemprop='name'><a itemprop='url' href='/p/site.html' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-feed'/> SiteMAP</a></li>
 
 </ul></nav>
 <div class='right-header' id='right-header'>
@@ -886,55 +885,24 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
         </b:if>
         </div>
         <b:if cond='data:blog.pageType != &quot;static_page&quot; and data:blog.pageType != &quot;item&quot;'>
-        <b:if cond='data:x==0'>
-
-          <div class='post'>
-             <!-- zz iklan infeed_Big -->
-               <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-               <ins class='adsbygoogle' data-ad-client='ca-pub-4132353076436228' data-ad-format='fluid' data-ad-layout-key='-69+cc+1g-1h+cd' data-ad-slot='3199134675' style='display:block'/>
-               <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-               </script>
-
-               <div class='post-footer'>
-                 <div class='meta-post'>
+          <b:if cond='data:x==3'>
+            <div class='post'>
+               <!-- zz iklan infeed_Big -->
+              <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
+                <ins class='adsbygoogle' data-ad-client='ca-pub-4132353076436228' data-ad-format='fluid' data-ad-layout-key='-69+cc+1g-1h+cd' data-ad-slot='3199134675' style='display:block'/>
+                <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+              <div style='clear: both;'/> <!-- clear for photos floats -->
+                <div class='post-footer'>
+                  <div class='meta-post'>
                     <span class='vcard author'> by</span>
                     <span class='fn'> Google</span>
                   </div>
-                 <span class='post-label'><a href='https://blog.zdienos.com/search/label/Google%20Ads' rel='nofollow'>Google Ads</a></span>
+                  <span class='post-label'><a href='https://blog.zdienos.com/search/label/Google%20Ads' rel='nofollow'>Google Ads</a></span>
+                </div>
                </div>
-
-             </div>
-
-
-        </b:if>
-
-
-<b:if cond='data:x==2'>
-
-          <div class='post'>
-             <!-- zz iklan infeed_Big -->
-               <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-               <ins class='adsbygoogle' data-ad-client='ca-pub-4132353076436228' data-ad-format='fluid' data-ad-layout-key='-69+cc+1g-1h+cd' data-ad-slot='3199134675' style='display:block'/>
-               <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-               </script>
-
-<div style='clear: both;'/> <!-- clear for photos floats -->
-
-
-               <div class='post-footer'>
-                 <div class='meta-post'>
-                    <span class='vcard author'> by</span>
-                    <span class='fn'> Google</span>
-                  </div>
-                 <span class='post-label'><a href='https://blog.zdienos.com/search/label/Google%20Ads' rel='nofollow'>Google Ads</a></span>
-               </div>
-
-             </div>
-
-
-        </b:if>
+          </b:if>
         </b:if>
 
         <b:if cond='data:post.includeAd'>
@@ -1240,6 +1208,7 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
   </div>
  </b:if>
 </div>
+
        <script type='text/javascript'>
        //<![CDATA[
        if (typeof(jQuery) == 'undefined') {
@@ -1264,7 +1233,7 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
          var Items = {};
          var Msgs = {};
          var Config = {&#39;maxThreadDepth&#39;:&#39;0&#39;};
-        </b:if>
+        </b:if> 
        //<![CDATA[
        //Global setting
         Config.maxThreadDepth = 3;//Kedalaman tingkat threaded comment
@@ -1561,7 +1530,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 <img class='thumb_post' expr:alt='data:post.title' expr:data-src='data:post.firstImageUrl' expr:src='&quot;data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=&quot;' expr:title='data:post.title' height='72' width='72'/>
   <!-- /lazy -->
 <b:else/>
-<img class='thumb_post' data-src='http://2.bp.blogspot.com/-ex3V86fj4dQ/UrCQQa4cLsI/AAAAAAAAFdA/j2FCTmGOrog/s300/no-thumbnail.png' expr:alt='data:post.title' height='184' width='350'/>
+<img class='thumb_post' data-src='https://2.bp.blogspot.com/-ex3V86fj4dQ/UrCQQa4cLsI/AAAAAAAAFdA/j2FCTmGOrog/s300/no-thumbnail.png' expr:alt='data:post.title' height='184' width='350'/>
 </b:if></a>
 <script type='text/javascript'>
 //<![CDATA[
@@ -1686,7 +1655,6 @@ var opsi3 = target.getElementsByTagName(&quot;h2&quot;);if (opsi3.length &gt; 0)
     <span itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
       <meta content='https://4.bp.blogspot.com/-TdAO9ITF4Eg/VbrrOOo0Y1I/AAAAAAAAFNg/EyxPHy80y7c/s1600/logo2png.png' itemprop='url'/>
       <meta content='125' itemprop='width'/>
-      <meta content='125' itemprop='height'/>
     </span>
     <meta expr:content='data:blog.title' itemprop='name'/>
   </span>
@@ -1704,7 +1672,7 @@ var opsi3 = target.getElementsByTagName(&quot;h2&quot;);if (opsi3.length &gt; 0)
 <div class='meta-post'>
 <b:include data='post' name='author-post'/>
   </div>
-<b:if cond='data:post.labels'><span class='post-label'><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url + &quot;?&amp;amp;max-results=6&quot;' rel='nofollow'><data:label.name/></a></b:loop></span></b:if></b:if>
+<b:if cond='data:post.labels'><span class='post-label'><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url + &quot;?&amp;amp;max-results=5&quot;' rel='nofollow'><data:label.name/></a></b:loop></span></b:if></b:if>
 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div class='post-footer-line post-footer-line-1'>
@@ -1742,7 +1710,7 @@ var opsi3 = target.getElementsByTagName(&quot;h2&quot;);if (opsi3.length &gt; 0)
   <b:if cond='data:post.editUrl'>
     <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
       <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
-        <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+        <img alt='' class='icon-action' height='18' src='https://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
       </a>
     </span>
   </b:if>
@@ -1755,7 +1723,7 @@ var labelArray = [<b:if cond='data:post.labels'><b:loop values='data:post.labels
 </b:includable>
     <b:includable id='share-tool' var='post'>
 <div class='sharethis'><div class='share'>
-<a class='gp' expr:href='&quot;http://plus.google.com/share?url=&quot; + data:blog.url' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=500,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' target='_blank' title='Share on Google+'><i class='fa fa-google-plus'/></a><a class='fb' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:blog.url' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=626,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' title='Share to Facebook'><i class='fa fa-facebook'/></a><a class='tw' expr:href='&quot;http://www.blogger.com/share-post.g?blogID=&quot; + data:blog.blogId + &quot;&amp;amp;postID=&quot;+ data:post.id + &quot;&amp;amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=500,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' target='_blank'><i class='fa fa-twitter'/></a><a class='le' expr:href='&quot;http://www.linkedin.com/shareArticle?mini=true&amp;amp;url=&quot; + data:post.url + &quot;&amp;amp;title=&quot; + data:post.title + &quot;&amp;amp;summary=&quot; + data:post.snippets' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=500,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' target='_blank' title='Share on LinkEdin'><i aria-hidden='true' class='fa fa-linkedin'/></a>
+<a class='gp' expr:href='&quot;https://plus.google.com/share?url=&quot; + data:blog.url' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=500,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' target='_blank' title='Share on Google+'><i class='fa fa-google-plus'/></a><a class='fb' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot; + data:blog.url' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=626,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' title='Share to Facebook'><i class='fa fa-facebook'/></a><a class='tw' expr:href='&quot;https://www.blogger.com/share-post.g?blogID=&quot; + data:blog.blogId + &quot;&amp;amp;postID=&quot;+ data:post.id + &quot;&amp;amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=500,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' target='_blank'><i class='fa fa-twitter'/></a><a class='le' expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=&quot; + data:post.url + &quot;&amp;amp;title=&quot; + data:post.title + &quot;&amp;amp;summary=&quot; + data:post.snippets' onclick='window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=500,resizable=0,top=50,left=100&quot;);return false;' rel='nofollow' target='_blank' title='Share on LinkEdin'><i aria-hidden='true' class='fa fa-linkedin'/></a>
   </div></div>
 </b:includable>
     <b:includable id='shareButtons' var='post'/>
@@ -2208,8 +2176,8 @@ $(document).ready(function () {
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
   <script type='text/javascript'>
     /*<![CDATA[*/
-      var perPage=6;
-      var numPages=4;
+      var perPage=5;
+      var numPages=3;
       var firstText ='First';
       var lastText ='Last';
       var prevText ='« Previous';
@@ -2225,6 +2193,7 @@ $(document).ready(function () {
   </script>
 </b:if>
 </b:if>
+
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <script type='text/javascript'>
 //<![CDATA[
@@ -2233,6 +2202,7 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
 //]]>
 </script>
 </b:if>
+
 <b:if cond='data:blog.isMobileRequest == &quot;false&quot; and data:blog.pageType == &quot;item&quot;'>
   <script type='text/javascript'>
   var mql = window.matchMedia(&#39;screen and (min-width: 689px)&#39;);if (mql.matches){
@@ -2287,18 +2257,27 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
 </div>
   </b:if>
 
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'/>
+
 
 <script type='text/javascript'>
 //<![CDATA[
 //LazyLoad Image
 function loadScript(d){var o=document.createElement("script");o.src=d,document.body.appendChild(o)}function downloadJSAtOnload(){
-function MasTamvan(){for(var e=document.getElementsByClassName("thumb_post"),t=0;t<e.length;t++)isInViewport(e[t])&&(e[t].src=e[t].getAttribute("data-src"))}function isInViewport(e){var t=e.getBoundingClientRect();return t.bottom>=0&&t.right>=0&&t.top<=(window.innerHeight||document.documentElement.clientHeight)&&t.left<=(window.innerWidth||document.documentElement.clientWidth)}function registerListener(e,t){window.addEventListener?window.addEventListener(e,t):window.attachEvent("on"+e,t)}registerListener("load",MasTamvan),registerListener("scroll",MasTamvan),document.addEventListener("DOMContentLoaded",function(){"use strict";for(var e=document.querySelectorAll("a"),t=e.length,n=/firefox|trident/i.test(navigator.userAgent)?document.documentElement:document.body,i=function(e,t,n,i){return(e/=i/2)<1?n/2*e*e*e+t:n/2*((e-=2)*e*e+2)+t};t--;)e.item(t).addEventListener("click",function(e){var t,o=n.scrollTop,r=document.getElementById(/[^#]+$/.exec(this.href)[0]).getBoundingClientRect().top,d=n.scrollHeight-window.innerHeight,a=d>o+r?r:d-o,c=900,s=function(e){t=t||e;var r=e-t,d=i(r,o,a,c);n.scrollTop=d,c>r&&requestAnimationFrame(s)};requestAnimationFrame(s),e.preventDefault()})});
+function MasTamvan(){
+for(var e=document.getElementsByClassName("thumb_post"),t=0;t<e.length;t++)isInViewport(e[t])&&(e[t].src=e[t].getAttribute("data-src"))}function isInViewport(e){var t=e.getBoundingClientRect();return t.bottom>=0&&t.right>=0&&t.top<=(window.innerHeight||document.documentElement.clientHeight)&&t.left<=(window.innerWidth||document.documentElement.clientWidth)}function registerListener(e,t){window.addEventListener?window.addEventListener(e,t):window.attachEvent("on"+e,t)}registerListener("load",MasTamvan),registerListener("scroll",MasTamvan),document.addEventListener("DOMContentLoaded",function(){"use strict";for(var e=document.querySelectorAll("a"),t=e.length,n=/firefox|trident/i.test(navigator.userAgent)?document.documentElement:document.body,i=function(e,t,n,i){return(e/=i/2)<1?n/2*e*e*e+t:n/2*((e-=2)*e*e+2)+t};t--;)e.item(t).addEventListener("click",function(e){var t,o=n.scrollTop,r=document.getElementById(/[^#]+$/.exec(this.href)[0]).getBoundingClientRect().top,d=n.scrollHeight-window.innerHeight,a=d>o+r?r:d-o,c=900,s=function(e){t=t||e;var r=e-t,d=i(r,o,a,c);n.scrollTop=d,c>r&&requestAnimationFrame(s)};requestAnimationFrame(s),e.preventDefault()})});
 }
 window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
 //]]>
 </script>
 
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'/>
+<script type='text/javascript'>
+//<![CDATA[
+// Lazy Load
+(function(a){a.fn.lazyload=function(b){var c={threshold:0,failurelimit:0,event:"scroll",effect:"show",container:window};if(b){a.extend(c,b)}var d=this;if("scroll"==c.event){a(c.container).bind("scroll",function(b){var e=0;d.each(function(){if(a.abovethetop(this,c)||a.leftofbegin(this,c)){}else if(!a.belowthefold(this,c)&&!a.rightoffold(this,c)){a(this).trigger("appear")}else{if(e++>c.failurelimit){return false}}});var f=a.grep(d,function(a){return!a.loaded});d=a(f)})}this.each(function(){var b=this;if(undefined==a(b).attr("original")){a(b).attr("original",a(b).attr("src"))}if("scroll"!=c.event||undefined==a(b).attr("src")||c.placeholder==a(b).attr("src")||a.abovethetop(b,c)||a.leftofbegin(b,c)||a.belowthefold(b,c)||a.rightoffold(b,c)){if(c.placeholder){a(b).attr("src",c.placeholder)}else{a(b).removeAttr("src")}b.loaded=false}else{b.loaded=true}a(b).one("appear",function(){if(!this.loaded){a("<img />").bind("load",function(){a(b).hide().attr("src",a(b).attr("original"))[c.effect](c.effectspeed);b.loaded=true}).attr("src",a(b).attr("original"))}});if("scroll"!=c.event){a(b).bind(c.event,function(c){if(!b.loaded){a(b).trigger("appear")}})}});a(c.container).trigger(c.event);return this};a.belowthefold=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).height()+a(window).scrollTop()}else{var d=a(c.container).offset().top+a(c.container).height()}return d<=a(b).offset().top-c.threshold};a.rightoffold=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).width()+a(window).scrollLeft()}else{var d=a(c.container).offset().left+a(c.container).width()}return d<=a(b).offset().left-c.threshold};a.abovethetop=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).scrollTop()}else{var d=a(c.container).offset().top}return d>=a(b).offset().top+c.threshold+a(b).height()};a.leftofbegin=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).scrollLeft()}else{var d=a(c.container).offset().left}return d>=a(b).offset().left+c.threshold+a(b).width()};a.extend(a.expr[":"],{"below-the-fold":"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold":"!$.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold(a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold : 0, container: window})"})})(jQuery);$(function(){$("img").lazyload({placeholder:"http://1.bp.blogspot.com/-Qg5bi1ZtDdM/VZ5nHAyYBqI/AAAAAAAAChE/exGnasO4oyk/s640/arlinadesign.gif",effect:"fadeIn",threshold:"-50"})});
+//]]>
+</script>
+
 
 
 &lt;!--</body>--&gt;&lt;/body&gt;
