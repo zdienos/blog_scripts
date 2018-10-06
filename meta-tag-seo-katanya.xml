@@ -1,0 +1,84 @@
+
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<b:else/>
+<meta content='catatan pribadi dan sedikit tutorial tentang cari uang di internet, blog, seo, google ads, networking, mikrotik, windows, linux, macosx, programming, software dan hardware' name='description'/>
+</b:if>
+
+<script type='application/ld+json'>{ &quot;@context&quot;: &quot;http://schema.org&quot;, &quot;@type&quot;: &quot;WebSite&quot;, &quot;url&quot;: &quot;<data:blog.homepageUrl/>&quot;, &quot;potentialAction&quot;: { &quot;@type&quot;: &quot;SearchAction&quot;, &quot;target&quot;: &quot;<data:blog.homepageUrl/>?q={search_term}&quot;, &quot;query-input&quot;: &quot;required name=search_term&quot; } }</script>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<b:if cond='data:blog.homepageUrl != data:blog.url'>
+<meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
+</b:if></b:if>
+
+
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta content='tutorial, cari uang di internet, blog, cisco, seo, google ads, networking, mikrotik, windows, linux, macosx, programming, software, hardware' name='keywords'/></b:if>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link expr:href='&quot;https://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
+</b:if></b:if>
+
+<link expr:href='data:blog.url' hreflang='x-default' rel='alternate'/>
+<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+<!--meta content='XXXXX' name='google-site-verification'/-->
+<meta content='3FE2FBC62F9263F10B6259AD87066DB3' name='msvalidate.01'/>
+<meta content='WyctSIKypdFVIcKdgPebzszFMNY' name='alexaVerifyID'/>
+<link href='https://plus.google.com/106824795040862821759/posts' rel='publisher'/>
+<link href='https://plus.google.com/106824795040862821759/about' rel='author'/>
+<link href='https://plus.google.com/106824795040862821759' rel='me'/>
+<meta content='Indonesia' name='geo.placename'/>
+<meta content='zdienos' name='Author'/>
+<meta content='general' name='rating'/>
+<meta content='id' name='geo.country'/>
+
+<!-- [ Social Media Meta Tag ] -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+  <meta expr:content='data:blog.pageName' property='og:title'/>
+  <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+  <meta content='article' property='og:type'/>
+</b:if>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+  <meta expr:content='data:blog.metaDescription' name='description'/>
+  <meta expr:content='data:blog.title' property='og:title'/>
+  <meta content='website' property='og:type'/>
+  <b:if cond='data:blog.metaDescription'>
+    <meta expr:content='data:blog.metaDescription' property='og:description'/>
+  <b:else/>
+    <!--meta expr:content='&quot;Silakan kunjungi &quot; + data:blog.pageTitle + &quot; untuk membaca postingan menarik yang lain.&quot;' property='og:description'/-->
+	<meta expr:content='&quot;merupakan kumpulan catatan pribadi dan sedikit tutorial tentang cari uang di internet, blog, seo, google ads, networking, mikrotik, windows, linux, macosx, programming, software dan hardware&quot;' property='og:description'/>
+
+
+  </b:if>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+  <meta expr:content='data:blog.metaDescription' property='og:description'/>
+</b:if>
+
+<b:if cond='data:blog.postImageUrl'>
+  <meta expr:content='data:blog.postImageUrl' property='og:image'/>
+<b:else/>
+  <b:if cond='data:blog.postImageThumbnailUrl'>
+      <meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
+    <b:else/>
+      <meta content='https://4.bp.blogspot.com/-qQiodFchaRc/W4zTnGhuaUI/AAAAAAAAELg/_LuMkXz73CswM9akNfNUOA92l3qJyvSSACLcBGAs/s1600/zdienos-blog-opengraph.jpg' property='og:image'/>
+  </b:if>
+</b:if>
+
+<meta content='https://www.facebook.com/zdienos' property='article:author'/>
+<meta content='https://www.facebook.com/zdienosblog' property='article:publisher'/>
+<meta content='264031434441750' property='fb:app_id'/>
+<meta content='1631777384' property='fb:admins'/>
+<meta content='en_US' property='og:locale'/>
+<meta content='en_GB' property='og:locale:alternate'/>
+<meta content='id_ID' property='og:locale:alternate'/>
+<meta content='summary' name='twitter:card'/>
+<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
+<meta content='@zdienos' name='twitter:site'/>
+<meta content='@zdienos' name='twitter:creator'/>
+<meta content='summary_large_image' name='twitter:card'/>

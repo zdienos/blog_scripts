@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<HTML  b:css='false' b:version='2' expr:class='data:blog.languageDirection + &quot; no-js rwd &quot; + data:blog.pageType' expr:dir='data:blog.languageDirection' lang='id' xml:lang='en'>
+<HTML b:css='false' b:version='2' expr:class='data:blog.languageDirection + &quot; no-js rwd &quot; + data:blog.pageType' expr:dir='data:blog.languageDirection' lang='id' xml:lang='en'>
 &lt;head&gt;
 <meta charset='utf-8'/>
 <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
 <meta content='blogger' name='generator'/>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-
-<include expiration='7d' path='*.css'/>
-<include expiration='7d' path='*.js'/>
-<include expiration='3d' path='*.gif'/>
-<include expiration='3d' path='*.jpeg'/>
-<include expiration='3d' path='*.jpg'/>
-<include expiration='3d' path='*.png'/>
-
-<link href='//blog.zdienos.com' rel='dns-prefetch'/>
-<link href='//ajax.googleapis.com' rel='dns-prefetch'/>
-<link href='//1.bp.blogspot.com' rel='dns-prefetch'/>
-<link href='//2.bp.blogspot.com' rel='dns-prefetch'/>
-<link href='//3.bp.blogspot.com' rel='dns-prefetch'/>
-<link href='//4.bp.blogspot.com' rel='dns-prefetch'/>
-<link href='//pagead2.googlesyndication.com' rel='dns-prefetch'/>
-<link href='//resources.blogblog.com' rel='dns-prefetch'/>
-<link href='//fonts.googleapis.com' rel='dns-prefetch'/>
-<link href='//maxcdn.bootstrapcdn.com' rel='dns-prefetch'/>
-<link href='//adservice.google.ca' rel='dns-prefetch'/>
-<link href='//adservice.google.com' rel='dns-prefetch'/>
-<link href='//www.google-analytics.com' rel='dns-prefetch'/>
-<link href='//googleads.g.doubleclick.net' rel='dns-prefetch'/>
 
 
 <link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
@@ -53,87 +31,9 @@
 <b:if cond='data:blog.isMobile'>
 <meta content='noindex,nofollow' name='robots'/>
 </b:if>
-<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
-<b:if cond='data:blog.metaDescription'>
-<meta expr:content='data:blog.metaDescription' name='description'/>
-<b:else/>
-<meta content='catatan pribadi dan sedikit tutorial tentang cari uang di internet, blog, seo, google ads, networking, mikrotik, windows, linux, macosx, programming, software dan hardware' name='description'/>
-</b:if>
 
-<script type='application/ld+json'>{ &quot;@context&quot;: &quot;http://schema.org&quot;, &quot;@type&quot;: &quot;WebSite&quot;, &quot;url&quot;: &quot;<data:blog.homepageUrl/>&quot;, &quot;potentialAction&quot;: { &quot;@type&quot;: &quot;SearchAction&quot;, &quot;target&quot;: &quot;<data:blog.homepageUrl/>?q={search_term}&quot;, &quot;query-input&quot;: &quot;required name=search_term&quot; } }</script>
-<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
-<b:if cond='data:blog.homepageUrl != data:blog.url'>
-<meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
-</b:if></b:if>
-<b:if cond='data:blog.url == data:blog.homepageUrl'>
-<meta content='tutorial, cari uang di internet, blog, cisco, seo, google ads, networking, mikrotik, windows, linux, macosx, programming, software, hardware' name='keywords'/></b:if>
-<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
-<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
-<link expr:href='&quot;https://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-<b:if cond='data:blog.postImageThumbnailUrl'>
-<link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
-</b:if></b:if>
+<!--meta tag di sini -->
 
-<link expr:href='data:blog.url' hreflang='x-default' rel='alternate'/>
-<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
-<!--meta content='XXXXX' name='google-site-verification'/-->
-<meta content='3FE2FBC62F9263F10B6259AD87066DB3' name='msvalidate.01'/>
-<meta content='WyctSIKypdFVIcKdgPebzszFMNY' name='alexaVerifyID'/>
-<link href='https://plus.google.com/106824795040862821759/posts' rel='publisher'/>
-<link href='https://plus.google.com/106824795040862821759/about' rel='author'/>
-<link href='https://plus.google.com/106824795040862821759' rel='me'/>
-<meta content='Indonesia' name='geo.placename'/>
-<meta content='zdienos' name='Author'/>
-<meta content='general' name='rating'/>
-<meta content='id' name='geo.country'/>
-
-<!-- [ Social Media Meta Tag ] -->
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-  <meta expr:content='data:blog.pageName' property='og:title'/>
-  <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
-  <meta content='article' property='og:type'/>
-</b:if>
-<meta expr:content='data:blog.title' property='og:site_name'/>
-<b:if cond='data:blog.url == data:blog.homepageUrl'>
-  <meta expr:content='data:blog.metaDescription' name='description'/>
-  <meta expr:content='data:blog.title' property='og:title'/>
-  <meta content='website' property='og:type'/>
-  <b:if cond='data:blog.metaDescription'>
-    <meta expr:content='data:blog.metaDescription' property='og:description'/>
-  <b:else/>
-    <!--meta expr:content='&quot;Silakan kunjungi &quot; + data:blog.pageTitle + &quot; untuk membaca postingan menarik yang lain.&quot;' property='og:description'/-->
-	<meta expr:content='&quot;merupakan kumpulan catatan pribadi dan sedikit tutorial tentang cari uang di internet, blog, seo, google ads, networking, mikrotik, windows, linux, macosx, programming, software dan hardware&quot;' property='og:description'/>
-
-
-  </b:if>
-</b:if>
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-  <meta expr:content='data:blog.metaDescription' property='og:description'/>
-</b:if>
-
-<b:if cond='data:blog.postImageUrl'>
-  <meta expr:content='data:blog.postImageUrl' property='og:image'/>
-<b:else/>
-  <b:if cond='data:blog.postImageThumbnailUrl'>
-      <meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
-    <b:else/>
-      <meta content='https://4.bp.blogspot.com/-qQiodFchaRc/W4zTnGhuaUI/AAAAAAAAELg/_LuMkXz73CswM9akNfNUOA92l3qJyvSSACLcBGAs/s1600/zdienos-blog-opengraph.jpg' property='og:image'/>
-  </b:if>
-</b:if>
-
-<meta content='https://www.facebook.com/zdienos' property='article:author'/>
-<meta content='https://www.facebook.com/zdienosblog' property='article:publisher'/>
-<meta content='264031434441750' property='fb:app_id'/>
-<meta content='1631777384' property='fb:admins'/>
-<meta content='en_US' property='og:locale'/>
-<meta content='en_GB' property='og:locale:alternate'/>
-<meta content='id_ID' property='og:locale:alternate'/>
-<meta content='summary' name='twitter:card'/>
-<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
-<meta content='@zdienos' name='twitter:site'/>
-<meta content='@zdienos' name='twitter:creator'/>
-<meta content='summary_large_image' name='twitter:card'/>
 
 &lt;style type=&quot;text/css&quot;&gt;
 &lt;!-- /*<b:skin><![CDATA[/*
@@ -147,7 +47,7 @@ ul,ol{list-style:none}
 .quickedit {display:none !important;width:0;height:0}
 ]]></b:skin>
 <style type='text/css'>
-body{font-family:&#39;Lato&#39;, sans-serif;font-size: 15px;color: #444;font-weight:400;line-height:1.4em;margin: 0;text-decoration:none;background: #e9ebee}
+body{font-family:&#39;Roboto&#39;, sans-serif;font-size: 15px;color: #444;font-weight:400;line-height:1.4em;margin: 0;text-decoration:none;background: #e9ebee}
 a,a:link,a:visited,a:active {color:#4285f4;text-decoration:none;}
 a:hover{color:#1f64d7}
 h2.date-header{display:none}
@@ -156,18 +56,19 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}
 #content-wrapper{margin:77px auto 0;padding:0;max-width:1080px;word-wrap: break-word;}
 /* Header wrapper */
 #wrapper {overflow:hidden;margin:0 auto;padding:0;}
-#header-wrapper{position:fixed;top:0;left:0;right:0;background-color:#212121;width:100%;margin:0 auto 25px;padding:0;word-wrap: break-word;z-index:999}
+#header-wrapper{position:fixed;top:0;left:0;right:0;background-color:#1E88E5;width:100%;margin:0 auto 25px;padding:0;word-wrap: break-word;z-index:999}
 #header-limit{margin:0 auto;width:100%;max-width:1350px;position:relative}
-#header-left{padding:0; margin:0; float:left;width:270px;-moz-box-sizing:border-box;box-sizing:border-box;height:60px;overflow:hidden}
-#header-right {margin:0;padding:0;float:right;width: calc(100% - 270px);}
+#header-left{padding:0; margin:0; float:left;width:148px;-moz-box-sizing:border-box;box-sizing:border-box;height:60px;overflow:hidden}
+#header-right {margin:0;padding:0;float:right;width: calc(100% - 150px);}
 #header .description{position:absolute;height:0;width:0;top:-9999px;left:-99999px}
 #header{padding:0;margin:0 auto;width:100%}
 #header h2,#header h1{font-family: &#39;Work Sans&#39;, sans-serif;color:#fff;font-size:200%;line-height:60px;padding:0;margin:0 0 0 40px;text-transform:uppercase;list-style:none}
 #header h2 a,#header h1 a{font-weight:700;color:#fff}
 #header h2 a:hover,#header h1 a:hover{color:#4285f4}
-#header img,#header-inner img{width:100%;max-width:230px;height:auto;margin:12px 0 0 40px;}
+#header img,#header-inner img{width:100%;max-width:45px;height:auto;margin:8px 0 0 96px;}
+
 /* Menu */
-.most-menu{background-color:#212121;width:100%;padding:0;margin:0 auto;}
+.most-menu{width:100%;padding:0;margin:0 auto;}
 .most-menu ul{margin:0 auto;padding:0;width:auto}
 .most-menu ul li{list-style:none;display:inline-block;transition:all 400ms ease-in-out;position:relative;text-transform:uppercase}
 .most-menu ul li a:hover{color:#86dfff}
@@ -177,8 +78,9 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}
 .most-menu ul li ul li {float: none;width:230px;display:block}
 .most-menu ul li ul li a{height:auto;line-height:1.2em;margin:0;padding:12px;border-bottom:1px solid #3a3a3a;display:block;}
 #show-menu,#close-menu,#hide{display:none}
+
  /* CSS Fixed Search Button */
-#right-header{background:#212121;width:99px;height:58px;display:inline-block;float:right;position:absolute;right:0;top:0;bottom:0;z-index:9999}
+#right-header{width:99px;height:58px;display:inline-block;float:right;position:absolute;right:0;top:0;bottom:0;z-index:9999}
 #search-wrapper{width:90%;margin:0 auto;padding:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-animation:shownow 0.3s ease-in-out;-moz-animation:shownow 0.3s ease-in-out;animation:shownow 0.3s ease-in-out}
 @keyframes shownow{0%{transform:scale(0.9)}50%{transform:scale(1.01)}100%{transform:scale(1)}}
 #search-wrap{clear:both;width:75%;margin:0 auto;padding:0;display:block;overflow:hidden}
@@ -195,6 +97,9 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}
 #hide span.smallbutton:hover{color:#eee;border-color:#eee}
 #box p{font-size:14px;margin:15% auto 70px;color:#fff;letter-spacing:2px;text-transform:uppercase}
 .search-icon span{font-weight:normal;width:45px; height:60px;line-height:60px;position:absolute;top:0;right:20px;cursor:pointer;font-size:22px;color:#fff}
+
+.past-main{    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);}
+
 /* ads wrapper */
 #ads-wrapper{width:100%;max-width:100%;margin: auto;padding:0;text-align:center}
 #ads-wrapper .widget-content img{width:auto;max-width:100%;height:auto;margin:0 auto 15px}
@@ -687,10 +592,14 @@ body{margin:0;padding:0;background:#e3614f;color:#fff;}
 .error_left{margin:37px auto 0 !important;text-align:center}}
 </style>
   </b:if>
+
 <!--script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'/-->
 <script type='text/javascript'>
 //<![CDATA[
-function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800");loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");loadCSS("https://fonts.googleapis.com/css?family=Lato:400,700");
+function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+loadCSS("https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800");
+loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+loadCSS("https://fonts.googleapis.com/css?family=Roboto:400,700");
 //]]>
 </script>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
@@ -712,15 +621,15 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
 <div id='header-left'>
 <header itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPHeader'>
   <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
-    <b:widget id='Header1' locked='false' title='zdienos blog - catatan pribadi dan sedikit tutorial (Header)' type='Header' version='1'>
+    <b:widget id='Header1' locked='false' title='Gudang Upil  (Header)' type='Header' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='displayUrl'>https://3.bp.blogspot.com/-KJRd42GHx3k/W2VIzfG6F6I/AAAAAAAAEF8/IL5l3DWwv24Pmxf_CCNY2OIhMlk_tOxNACK4BGAYYCw/s200/zdienosblog-header-logo.png</b:widget-setting>
-        <b:widget-setting name='displayHeight'>40</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>600</b:widget-setting>
+        <b:widget-setting name='displayUrl'>http://4.bp.blogspot.com/-GYXu-LEWUHk/W7hK3iCDUUI/AAAAAAAAAE8/oY7v-vMhvf8VnNc8JMjGtzeIItFNZ86GwCK4BGAYYCw/s1600/gudang-upil-logo-45p-blue.png</b:widget-setting>
+        <b:widget-setting name='displayHeight'>45</b:widget-setting>
+        <b:widget-setting name='sectionWidth'>790</b:widget-setting>
         <b:widget-setting name='useImage'>true</b:widget-setting>
         <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-        <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-        <b:widget-setting name='displayWidth'>230</b:widget-setting>
+        <b:widget-setting name='imagePlacement'>BEFORE_DESCRIPTION</b:widget-setting>
+        <b:widget-setting name='displayWidth'>45</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
 
@@ -803,9 +712,9 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
 <div id='header-right'>
 <nav class='most-menu' id='most-menu'>
  <ul class='no-js' id='mobile-menu-show' itemscope='itemscope' itemtype='http://www.schema.org/SiteNavigationElement'>
-   <li itemprop='name'><a itemprop='url' href='/p/about-me.html' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-user'/> AboutME</a></li>
-   <li itemprop='name'><a itemprop='url' href='/p/html-parsing-tool.html'  rel='nofollow' title=''><i aria-hidden='true' class='fa fa-bookmark'/> HTML ParsingTool</a></li>
-   <li itemprop='name'><a itemprop='url' href='/p/site.html' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-feed'/> SiteMAP</a></li>
+   <li itemprop='name'><a href='/p/about-me.html' itemprop='url' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-user'/> AboutME</a></li>
+   <li itemprop='name'><a href='/p/html-parsing-tool.html' itemprop='url' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-bookmark'/> HTML ParsingTool</a></li>
+   <li itemprop='name'><a href='/p/site.html' itemprop='url' rel='nofollow' title=''><i aria-hidden='true' class='fa fa-feed'/> SiteMAP</a></li>
 
 </ul></nav>
 <div class='right-header' id='right-header'>
@@ -821,7 +730,7 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
       <main itemscope='itemscope' itemtype='http://schema.org/Blog'>
       <div id='main-wrapper'>
 <b:section class='main' id='main' showaddelement='no'>
-  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+  <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog' version='1'>
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>false</b:widget-setting>
       <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
@@ -884,16 +793,15 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
           </b:if>
         </b:if>
         </div>
+
+		<!-- iklan infeed di sini zz
         <b:if cond='data:blog.pageType != &quot;static_page&quot; and data:blog.pageType != &quot;item&quot;'>
           <b:if cond='data:x==3'>
             <div class='post'>
-               <!-- zz iklan infeed_Big -->
-              <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-                <ins class='adsbygoogle' data-ad-client='ca-pub-4132353076436228' data-ad-format='fluid' data-ad-layout-key='-69+cc+1g-1h+cd' data-ad-slot='3199134675' style='display:block'/>
-                <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-              <div style='clear: both;'/> <!-- clear for photos floats -->
+
+ 			iklannya di sini
+
+              <div style='clear: both;'/>
                 <div class='post-footer'>
                   <div class='meta-post'>
                     <span class='vcard author'> by</span>
@@ -904,6 +812,7 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
                </div>
           </b:if>
         </b:if>
+        -->
 
         <b:if cond='data:post.includeAd'>
           <b:if cond='data:post.isFirstPost'>
@@ -1604,17 +1513,6 @@ function resizeThumb(e,t){for(var g=document.getElementById(e),m=g.getElementsBy
 <div class='adspost1'>
 <!-- Ad under featured image or title posts -->
 
-&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;!-- top_banner_responsive --&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-client=&quot;ca-pub-4132353076436228&quot;
-     data-ad-slot=&quot;5754920184&quot;
-     data-ad-format=&quot;auto&quot;
-     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-(adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
 
   </div>
 </b:if>
@@ -1632,15 +1530,8 @@ function resizeThumb(e,t){for(var g=document.getElementById(e),m=g.getElementsBy
 <div class='widget-middle' id='widget-middle' itemprop='articleBody'><data:post.body/></div>
 <div class='inline_wrapper' id='inline_wrapper'>
 <div class='middle-ads'> <!-- ADS MIDDLE POST -->
-  &lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;!-- zdienos_main_Blog1_300x250_as --&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:inline-block;width:300px;height:250px&quot;
-     data-ad-client=&quot;ca-pub-4132353076436228&quot;
-     data-ad-slot=&quot;2405981784&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-(adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
+
+
   </div>
 </div>
 <script type='text/javascript'>
@@ -1678,15 +1569,8 @@ var opsi3 = target.getElementsByTagName(&quot;h2&quot;);if (opsi3.length &gt; 0)
 <div class='post-footer-line post-footer-line-1'>
 <div class='adspost2'>
 <!-- Ad under post page -->
-&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;!-- zdienos_main_Blog1_300x250_as --&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:inline-block;width:300px;height:250px&quot;
-     data-ad-client=&quot;ca-pub-4132353076436228&quot;
-     data-ad-slot=&quot;2405981784&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-(adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
+
+
 </div>
 <div class='clear'/>
 <div class='share-wrpaper' id='share-wrapper'>
@@ -1989,81 +1873,7 @@ var labelArray = [<b:if cond='data:post.labels'><b:loop values='data:post.labels
       </main>
       <aside itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPSideBar'>
       <div id='sidebar-right'>
-        <b:section class='sidebar1' id='sidebar1' preferred='yes'>
-          <b:widget id='HTML1' locked='false' title='' type='HTML'>
-            <b:widget-settings>
-              <b:widget-setting name='content'>&lt;div id=&#39;socialcounter&#39;&gt;
-
-                    &lt;div class=&#39;arlina_socialize&#39;&gt;
-
-                      &lt;div class=&#39;scl_social facebookx&#39;&gt;
-                      &lt;a href=&#39;https://www.facebook.com/zdienosblog&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Like our Facebook&#39;&gt;
-                      &lt;span class=&#39;app_icon&#39;&gt;&lt;i class=&#39;fa fa-facebook&#39;/&gt;&lt;/i&gt;&lt;/span&gt;
-                      &lt;/a&gt;
-                      &lt;/div&gt;
-
-                      &lt;div class=&#39;scl_social twitterx&#39;&gt;
-                      &lt;a href=&#39;https://www.twitter.com/@zdienos&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Follow our Twitter&#39;&gt;
-                      &lt;span class=&#39;app_icon&#39;&gt;&lt;i class=&#39;fa fa-twitter&#39;/&gt;&lt;/i&gt;&lt;/span&gt;
-                      &lt;!-- span class=&#39;app_type&#39;&gt;Twitter&lt;/span--&gt;
-                      &lt;/a&gt;
-                      &lt;/div&gt;
-
-
-                      &lt;div class=&#39;scl_social googlex&#39;&gt;
-                      &lt;a href=&#39;https://plus.google.com/106824795040862821759&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Get in touch&#39;&gt;
-                      &lt;span class=&#39;app_icon&#39;&gt;&lt;i class=&#39;fa fa-google-plus&#39;/&gt;&lt;/i&gt;&lt;/span&gt;
-                      &lt;!--span class=&#39;app_type&#39;&gt;Google+&lt;/span--&gt;
-                      &lt;/a&gt;
-                      &lt;/div&gt;
-
-                      &lt;div class=&#39;scl_social youtubex&#39;&gt;
-                      &lt;a href=&#39;https://www.youtube.com/user/zdienos&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Visit our Channel&#39;&gt;
-                      &lt;span class=&#39;app_icon&#39;&gt;&lt;i class=&#39;fa fa-youtube&#39;/&gt;&lt;/i&gt;&lt;/span&gt;
-                      &lt;!--span class=&#39;app_type&#39;&gt;Youtube&lt;/span--&gt;
-                      &lt;/a&gt;
-                      &lt;/div&gt;
-
-                    &lt;/div&gt;
-                &lt;/div&gt;</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-          </b:widget>
-          <b:widget id='HTML2' locked='false' title='' type='HTML'>
-            <b:widget-settings>
-              <b:widget-setting name='content'>&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;!-- Square2 --&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:inline-block;width:300px;height:250px&quot;
-     data-ad-client=&quot;ca-pub-4132353076436228&quot;
-     data-ad-slot=&quot;3162861389&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-(adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-          </b:widget>
-        </b:section>
+        <b:section class='sidebar1' id='sidebar1' preferred='yes'/>
         <b:section class='sidebar2' id='sidebar2' preferred='yes'/>
 		<b:section class='sidebar3' id='sidebar3' showaddelement='yes'/>
         <b:section class='sidebar4' id='sidebar4' preferred='yes'/>
@@ -2172,6 +1982,8 @@ $(document).ready(function () {
 <!--script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.async=true; js.src = &quot;//connect.facebook.net/en_US/all.js#xfbml=1&quot;; fjs.parentNode.insertBefore(js, fjs); }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
 </script-->
 
+
+
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
   <script type='text/javascript'>
@@ -2204,6 +2016,8 @@ $(document).ready(function () {
     }
   </script>
 </b:if>
+
+
 <b:if cond='data:blog.isMobileRequest == &quot;false&quot;'>
   <script type='text/javascript'>
   //<![CDATA[
@@ -2212,6 +2026,9 @@ $(document).ready(function () {
   //]]>
   </script>
 </b:if>
+
+<!--google analytics -->
+<!-- zz disable dulu
 <script>
   (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -2220,9 +2037,12 @@ $(document).ready(function () {
 
   ga(&#39;create&#39;, &#39;UA-37829364-1&#39;, &#39;auto&#39;);
   ga(&#39;send&#39;, &#39;pageview&#39;);
-
 </script>
+-->
 </b:if>
+
+
+
 <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
 <div class='error-wrapper'>
 <div class='error_left'>
@@ -2270,6 +2090,22 @@ window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):wi
 //]]>
 </script>
 
+
+<script type='text/javascript'>
+      // ini untuk automatic shadow
+      // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
+      var mainbottom = $(&#39;#header-wrapper&#39;).offset().top + $(&#39;#header-wrapper&#39;).height();
+                         // on scroll,
+                         $(window).on(&#39;scroll&#39;,function(){
+                                      // we round here to reduce a little workload
+                                      stop = Math.round($(window).scrollTop());
+      if (stop &gt; 150) {
+        $(&quot;#header-wrapper&quot;).addClass(&quot;past-main&quot;);
+      } else {
+        $(&quot;#header-wrapper&quot;).removeClass(&quot;past-main&quot;);
+      }
+      });
+    </script>
 
 
 &lt;!--</body>--&gt;&lt;/body&gt;
