@@ -59,6 +59,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}
 /* Header wrapper */
 #wrapper {overflow:hidden;margin:0 auto;padding:0;}
 #header-wrapper{position:fixed;top:0;left:0;right:0;background-color:#1E88E5;width:100%;margin:0 auto 25px;padding:0;word-wrap: break-word;z-index:999}
+#header-wrapper{box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);}
 #header-limit{margin:0 auto;width:100%;max-width:1350px;position:relative}
 #header-left{padding:0; margin:0; float:left;width:148px;-moz-box-sizing:border-box;box-sizing:border-box;height:60px;overflow:hidden}
 #header-right {margin:0;padding:0;float:right;width: calc(100% - 150px);}
@@ -100,7 +101,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}
 #box p{font-size:14px;margin:15% auto 70px;color:#fff;letter-spacing:2px;text-transform:uppercase}
 .search-icon span{font-weight:normal;width:45px; height:60px;line-height:60px;position:absolute;top:0;right:20px;cursor:pointer;font-size:22px;color:#fff}
 
-.past-main{    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);}
+
 
 /* ads wrapper */
 #ads-wrapper{width:100%;max-width:100%;margin: auto;padding:0;text-align:center}
@@ -341,13 +342,13 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}
 #main-wrapper{background:none;margin-left:-0.9%!important;width: calc(100% - 307px);padding:0}
 
 .post{background:#fff;float:left;position:relative;margin-bottom:12px;margin-left:1.3%;height:148px;width:100%;display:inline-block;overflow:hidden;-moz-box-shadow:#dddee0 0 3px 1px 0;-webkit-box-shadow:#dddee0 0 3px 1px 0;box-shadow:#dddee0 0 3px 1px 0;transition:all .4s ease-out;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-.post h2,.post h5 {font-family:&#39;Work Sans&#39;, sans-serif;margin:0;padding:0 17px 5px;font-size:115% !important;display:inline;position:absolute;}
+.post h2,.post h5 {font-family:&#39;Work Sans&#39;, sans-serif;margin:0;padding:0 17px 5px;font-size:115% !important;display:inline;position:absolute;top:10px;}
 .post h2 a,.post h5 a{color:#333437; text-decoration:none;font-weight:700 !important;line-height:1.1em;overflow:hidden;display:block}
 .post h2 a:hover,.post h5 a:hover{color:#4285f4 !important}
-.post-body{padding:0;margin:0;position:absolute;}
+.post-body{padding:0;margin:0;height:68px;}
 .post h5 a{color:#363c5c}
 .post-header {display:none;}
-.left_post {top: 25px;
+.left_post {top: 35px;
     display: inline;
     position: absolute;
     width: 66%;}
@@ -362,7 +363,9 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}
 .breadcrumbs{margin:0 10px 15px!important;padding:0}
 .inline-ads{width:90%;float:left;position:relative;margin:20px auto 0;}
 .inline-ads span{color:#3d4260;font-size:16px;font-weight:400;display:block;margin:0 0 10px;text-align:left}
-.post-footer{background:#fff;position:absolute;bottom:0;left:0;right:0;border-top:1px solid #e9e9e9;}
+.xpost-footer{background:#fff;position:absolute;bottom:0;left:0;right:0;border-top:1px solid #e9e9e9;}
+.post-footer{background:#fff;border-top:1px solid #e9e9e9;}
+
 .meta-post{margin:5px 17px;position:absolute;left:0}
 .author{margin-top:7px}
 .clock{margin:0;padding:0;color:#fff;font-size:12.5px;line-height:1.3em;position:absolute;bottom:20px;left:17px;z-index:100}
@@ -2118,23 +2121,6 @@ window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):wi
 (function(a){a.fn.lazyload=function(b){var c={threshold:0,failurelimit:0,event:"scroll",effect:"show",container:window};if(b){a.extend(c,b)}var d=this;if("scroll"==c.event){a(c.container).bind("scroll",function(b){var e=0;d.each(function(){if(a.abovethetop(this,c)||a.leftofbegin(this,c)){}else if(!a.belowthefold(this,c)&&!a.rightoffold(this,c)){a(this).trigger("appear")}else{if(e++>c.failurelimit){return false}}});var f=a.grep(d,function(a){return!a.loaded});d=a(f)})}this.each(function(){var b=this;if(undefined==a(b).attr("original")){a(b).attr("original",a(b).attr("src"))}if("scroll"!=c.event||undefined==a(b).attr("src")||c.placeholder==a(b).attr("src")||a.abovethetop(b,c)||a.leftofbegin(b,c)||a.belowthefold(b,c)||a.rightoffold(b,c)){if(c.placeholder){a(b).attr("src",c.placeholder)}else{a(b).removeAttr("src")}b.loaded=false}else{b.loaded=true}a(b).one("appear",function(){if(!this.loaded){a("<img />").bind("load",function(){a(b).hide().attr("src",a(b).attr("original"))[c.effect](c.effectspeed);b.loaded=true}).attr("src",a(b).attr("original"))}});if("scroll"!=c.event){a(b).bind(c.event,function(c){if(!b.loaded){a(b).trigger("appear")}})}});a(c.container).trigger(c.event);return this};a.belowthefold=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).height()+a(window).scrollTop()}else{var d=a(c.container).offset().top+a(c.container).height()}return d<=a(b).offset().top-c.threshold};a.rightoffold=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).width()+a(window).scrollLeft()}else{var d=a(c.container).offset().left+a(c.container).width()}return d<=a(b).offset().left-c.threshold};a.abovethetop=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).scrollTop()}else{var d=a(c.container).offset().top}return d>=a(b).offset().top+c.threshold+a(b).height()};a.leftofbegin=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).scrollLeft()}else{var d=a(c.container).offset().left}return d>=a(b).offset().left+c.threshold+a(b).width()};a.extend(a.expr[":"],{"below-the-fold":"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold":"!$.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold(a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold : 0, container: window})"})})(jQuery);$(function(){$("img").lazyload({placeholder:"https://1.bp.blogspot.com/-Qg5bi1ZtDdM/VZ5nHAyYBqI/AAAAAAAAChE/exGnasO4oyk/s640/arlinadesign.gif",effect:"fadeIn",threshold:"-50"})});
 //]]>
 </script>
-
-
-<script type='text/javascript'>
-      // ini untuk automatic shadow
-      // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
-      var mainbottom = $(&#39;#header-wrapper&#39;).offset().top + $(&#39;#header-wrapper&#39;).height();
-                         // on scroll,
-                         $(window).on(&#39;scroll&#39;,function(){
-                                      // we round here to reduce a little workload
-                                      stop = Math.round($(window).scrollTop());
-      if (stop &gt; 150) {
-        $(&quot;#header-wrapper&quot;).addClass(&quot;past-main&quot;);
-      } else {
-        $(&quot;#header-wrapper&quot;).removeClass(&quot;past-main&quot;);
-      }
-      });
-    </script>
 
 
 &lt;!--</body>--&gt;&lt;/body&gt;
